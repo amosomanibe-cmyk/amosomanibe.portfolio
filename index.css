@@ -870,11 +870,11 @@ hr {
     background-color: rgba(17, 43, 68, 0.7);
 }
 
-info-sidebar  {
-    margin: 0 auto;
+.info-sidebar  {
+    /* margin: 0 auto;
     width: 90%;
-    padding: 1em;
-    border: 1px solid #ccc;
+    padding: 1em; */
+    /* border: 1px solid #ccc; */
 }
 
 .info-sidebar form {
@@ -900,6 +900,8 @@ info-sidebar  {
     width: 100%;
     border-radius: 15px;
     background-color: #031429;
+    font-size: 15px;
+    color: #fff;
     margin-top: 10px;
     border: none;
     
@@ -1259,3 +1261,87 @@ footer #list-two li {
 }
 
 
+@media(max-width:430px) {
+    .main-body {
+        left: 50%;
+        /* top: 15rem; */
+        padding-top: 2rem;
+        transform: translate(-50% -50%);
+        /* position: relative; */
+        text-align: center;
+        /* border: 2px solid red; */
+        margin-left: 1.5rem;
+        padding-top: 40rem;
+    }
+    .aval-free {
+        font-size: 9px;
+    }
+    .main-body h1 {
+        font-size: 1.7rem;
+    }
+    .building-scale {
+        font-size: 16px;   
+        line-height: 20px;
+    }
+
+    .view p{
+        padding: 10px 12px;
+        font-size: 14px;
+        /* border: 2px solid red; */
+    }
+
+    /* PRONUM */
+    .pro-num {
+        margin-left: 2.5rem;
+    }
+    .pro-num div {
+        padding: 10px 10px;
+    }
+    .pro-num-div {
+        font-size: 20px;
+    }
+    .pro-num-div-class {
+        font-size: 14px;
+    }
+
+    /* IMG */
+    .img-section{
+        /* margin-left: 2.5rem; */
+    }
+    .img-section-side p {    
+        margin: -3rem -2rem 2rem auto;
+        width: 60%;
+        height: auto;
+  }
+  .img-section-sub {
+    top: 7rem;
+  }
+  .img-section-sub h1 {
+    font-size: 1.7rem;
+  }
+  .img-section-sub hr {
+    top: 18px;
+    /* border: 2px solid red; */
+    width: 40px;
+  }
+  .img-section-sub p {
+    line-height: 22px;
+    word-break:;
+    /* border: 2px red solid; */
+    /* width: 100%; */
+  }
+    
+  /* TECH */
+  .tech {
+    top: -13rem;
+  }
+  .Technical-arsenal {
+    margin-left: 2rem;
+  }
+  .Technical-arsenal h2 {
+    font-size: 1.7rem;
+  }
+  .Technical-arsenal p {
+    font-size: 12px;
+  }
+}
