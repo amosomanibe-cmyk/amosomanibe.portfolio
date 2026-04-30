@@ -1261,7 +1261,7 @@ footer #list-two li {
 }
 
 
-@media(max-width:430px) {
+@media(max-width:420px) {
     .main-body {
         left: 50%;
         /* top: 15rem; */
