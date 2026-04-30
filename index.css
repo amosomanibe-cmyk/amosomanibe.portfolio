@@ -1321,7 +1321,7 @@ footer #list-two li {
   }
   .img-section-sub hr {
     top: 18px;
-    /* border: 2px solid red; */
+    border: 2px solid red;
     width: 40px;
   }
   .img-section-sub p {
