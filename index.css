@@ -32,6 +32,7 @@ body {
     justify-content: center;
     align-items: center;
     margin-left: 25px;
+    cursor: pointer;
 }
 
 .logo h2 {
@@ -83,7 +84,7 @@ body {
     margin-right: 70px;
     font-size: 18px;
     font-weight: bold;
-    
+    cursor: pointer;
 }
 
 
@@ -139,6 +140,7 @@ body {
     margin-top: 40px;
     gap: 30px;
     font-size: 21px;
+    cursor: pointer;
 }
 .view-one, .view-two {
     border-radius: 15px;
@@ -627,7 +629,7 @@ hr {
     display: inline-block;
     justify-content: center;
     gap: 2em;
-    
+    cursor: pointer;
 
 }
 #prop-icon span:first-child {
@@ -723,6 +725,7 @@ hr {
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
 }
 
 .second-list-div li:last-child {
@@ -1039,11 +1042,13 @@ textarea {
     font-weight: 700;
     color: #14283f;
     background: linear-gradient(to right, rgba(176, 176, 235, 0.9),rgba(161, 161, 231, 0.6),rgba(48, 48, 233, 0.3));
+    cursor: pointer;
 }
 
 
 /* footer */
 footer {
+    font-family: "Poppins", sans-serif;
     background-color: #14283f;
     border-radius: 15px;
     /* margin-top: 3em; */
@@ -1084,6 +1089,7 @@ footer h5 {
     margin: 0 10px;
     list-style: none;
     color: #5e7e8d;
+    cursor: pointer;
 }
 
 footer #list-two {
